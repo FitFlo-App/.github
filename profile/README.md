@@ -1,68 +1,158 @@
-<p align="center">
-  <img src="assets/logo.png"/>
+<div align="center">
+  <table border="1">
+    <tr>
+      <td align="center" style="padding: 20px;">
+        <h3>📢 Domain & Email Migration Notice</h3>
+        <p>Since <b>13 March 2026</b>, FitFlo has transitioned to new domains as <code>fitflo.site</code> was not renewed:</p>
+        <p>🌐 <b>Website:</b> <a href="https://fitflo.faizath.com">fitflo.faizath.com</a> (formerly <i>fitflo.site</i>)<br>
+        ⚙️ <b>API:</b> <a href="https://fitflo-api.faizath.com">fitflo-api.faizath.com</a> (formerly <i>api.fitflo.site</i>)<br>
+        📧 <b>Email:</b> <code>fitflo@faizath.com</code> (formerly <i>@fitflo.site</i>)</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://fitflo.faizath.com/">
+    <img src="assets/logo.png" alt="FitFlo Logo">
+  </a>
+
   <h1 align="center">FitFlo</h1>
-</p>
 
-## 📘 Project Overview
-FitFlo is an AI-powered healthcare pathway planner designed to deliver a seamless and interactive user experience. This front-end, built with React and Vite, provides an intuitive interface for users to manage their health journeys, view personalized AI-driven recommendations, and navigate healthcare options with ease. It integrates visually rich components, smooth animations, and responsive design to enhance usability and engagement.
+  <p align="center">
+    <strong>AI-Powered Healthcare Pathway Planner for Value-Based Care</strong>
+    <br />
+    Submitted for <strong>HealthHack 2025</strong> by National University of Singapore
+    <br />
+    <br />
+    <a href="https://fitflo.faizath.com/">View Demo</a>
+    ·
+    <a href="https://github.com/FitFlo-App/FitFlo-BE/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/FitFlo-App/FitFlo-BE/issues">Request Feature</a>
+  </p>
 
-FitFlo is deployed on [fitflo.site](https://fitflo.site) and it's API (Back End) deployed on [api.fitflo.site](https://api.fitflo.site)
+  [![MIT License][license-shield]][license-url]
+  [![React][react-shield]][react-url]
+  [![Vite][vite-shield]][vite-url]
+  [![Tailwind][tailwind-shield]][tailwind-url]
+  [![Node.js][node-shield]][node-url]
+  [![Express][express-shield]][express-url]
+  [![MongoDB][mongodb-shield]][mongodb-url]
+  [![InterSystems IRIS][iris-shield]][iris-url]
+  [![Redis][redis-shield]][redis-url]
 
-FitFlo Front-End Repository: [https://github.com/FitFlo-App/FitFlo-FE](https://github.com/FitFlo-App/FitFlo-FE)<br>
-FitFlo Back-End Repository: [https://github.com/FitFlo-App/FitFlo-BE](https://github.com/FitFlo-App/FitFlo-BE)
+</div>
+
+---
+
+## 🌟 About FitFlo
+
+**FitFlo** is an AI-driven healthcare pathway planner designed to revolutionize the patient journey by aligning with the principles of **Value-Based Healthcare**. Developed for **HealthHack 2025** (Theme 1), FitFlo shifts the focus from the volume of services to the *value* of care delivered, empowering patients with personalized, data-driven health insights.
+
+### 🎯 The Challenge: Value-Based Healthcare
+Value-based healthcare emphasizes improving patient outcomes while reducing costs. Modern healthcare faces challenges in tracking outcomes across different care settings and maintaining quality while managing expenses.
+
+### 💡 Our Solution
+FitFlo leverages AI and real-time data analytics to:
+1.  **Track & Improve Outcomes:** Interactive treatment pathways and real-time monitoring ensure patients stay on the optimal path to recovery.
+2.  **Reduce Costs:** By providing AI-driven recommendations and efficient pathway planning, we minimize unnecessary procedures and administrative overhead.
+
+---
+
+## 🚀 Live Links & Repositories
+
+| Component | Repository | Deployment |
+| :--- | :--- | :--- |
+| **Frontend** | [GitHub Repo](https://github.com/FitFlo-App/FitFlo-FE) | [fitflo.faizath.com](https://fitflo.faizath.com/) |
+| **Backend** | [GitHub Repo](https://github.com/FitFlo-App/FitFlo-BE) | [fitflo-api.faizath.com](https://fitflo-api.faizath.com/) |
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **Core:** [React 18](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
+- **UI Frameworks:** [Hero UI](https://heroui.com/), [Ant Design](https://ant.design/), [Shadcn UI](https://ui.shadcn.com/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/)
+- **Visualizations:** [React Flow / XYFlow](https://reactflow.dev/) (Interactive Pathways), [Recharts](https://recharts.org/) (Health Analytics)
+- **Icons:** [Lucide React](https://lucide.dev/), [Tabler Icons](https://tabler-icons.io/)
+
+### Backend
+- **Core:** [Node.js](https://nodejs.org/), [Express](https://expressjs.com/)
+- **Database:** **InterSystems IRIS** (High-performance health data), [MongoDB](https://www.mongodb.com/) (Mongoose), [Redis](https://redis.io/)
+- **AI/ML:** [@xenova/transformers](https://huggingface.co/docs/transformers.js/), [Natural](https://github.com/NaturalNode/natural)
+- **Auth:** [Passport.js](https://www.passportjs.org/) (Google OAuth), [JWT](https://jwt.io/)
+
+### IRIS Intersystems
+
+IRIS Intersystems is used to store and query vectorized symptom data to predict user disease from a chat. Then, FitFlo will give user General Advice, Medication, Home Remedies, and Alteranative Treatments.
 
 <p align="center">
-  <!-- https://raw.githubusercontent.com/FitFlo-App/FitFlo-FE/main/ -->
-  <img src="assets/screenshots/1.jpg"/>
-  <img src="assets/screenshots/2.jpg"/>
-  <img src="assets/screenshots/3.jpg"/>
-  <img src="assets/screenshots/4.jpg"/>
-  <img src="assets/screenshots/5.jpg"/>
-  <img src="assets/screenshots/6.jpg"/>
-  <img src="assets/screenshots/7.jpg"/>
-  <img src="assets/screenshots/8.jpg"/>
-  <img src="assets/screenshots/9.jpg"/>
+  <img src="assets/iris-intersystems.png"/>
+  <img src="assets/rest-api.png"/>
 </p>
 
-## 🧱 Tech Stack Overview
+#### Problems with IRIS Intersystems
 
-### 🖥️ Frontend
+While Intersystems IRIS Community Edition performs reliably in a local Docker environment, its stability in a VPS-hosted Docker setup is highly questionable for production use. The instance frequently stops running without clear explanations, making it unpredictable and frustrating to maintain. Occasionally, it cites "License limit exceeded 1 times since instance start," but more often than not, it fails without providing any reason at all. This inconsistency makes it unreliable for critical workloads, as troubleshooting becomes a guessing game. For a production environment, a database system should offer transparency and stability, two qualities that IRIS Community Edition currently lacks in a VPS-hosted Docker setup.
 
-- **Framework & Build Tool**  
-  - React.js for front-end development  
-  - Vite for fast development and optimized builds  
+---
 
-- **UI Components & Styling**  
-  - **Ant Design** and **Hero UI** for pre-built components  
-  - **Radix UI** for accessible and customizable UI elements  
-  - **Tailwind CSS** for utility-first styling  
-  - **ShadCN UI** for additional UI utilities  
-  - **Lucide React** and **Tabler Icons** for iconography  
+## 📸 Screenshots
 
-- **State Management & Routing**  
-  - React Router for client-side navigation  
+<p align="center">
+  <img src="assets/screenshots/1.jpg" width="30%" />
+  <img src="assets/screenshots/2.jpg" width="30%" />
+  <img src="assets/screenshots/3.jpg" width="30%" />
+  <br />
+  <img src="assets/screenshots/4.jpg" width="30%" />
+  <img src="assets/screenshots/5.jpg" width="30%" />
+  <img src="assets/screenshots/6.jpg" width="30%" />
+  <br />
+  <img src="assets/screenshots/7.jpg" width="30%" />
+  <img src="assets/screenshots/8.jpg" width="30%" />
+  <img src="assets/screenshots/9.jpg" width="30%" />
+</p>
 
-- **Animations & Interactivity**  
-  - Framer Motion and Motion for smooth animations  
-  - React Flow and XYFlow for interactive visualizations  
+---
 
-- **Data Handling & API Calls**  
-  - Axios for making HTTP requests  
-  - Recharts for data visualization  
+## 👥 Meet the Team
 
-- **Development & Tooling**  
-  - TypeScript for type safety  
-  - ESLint and Prettier for code quality and formatting  
-  - Vite TSConfig Paths for module resolution  
-  - PostCSS and Autoprefixer for CSS processing
+**Created by ITB Team:**
 
-### 🧩 API Backend
+- **Andhita Naura H.**
+- **Aththriq Lisan Q. D. S.**
+- **Eleanor Cordelia**
+- **Marzuli Suhada M**
+- **Muhammad Faiz A**
 
-- **Backend Framework**: Node.js with Express
-- **Database**: MongoDB, Intersystems IRIS
-- **Authentication**: JWT-based authentication
-- **AI Integration**: Qwen AI, Gemma, DeepSeek
-- **APIs**: RESTful architecture
+---
 
-## 📝 License
-This project is licensed under the MIT License.
+## 📜 License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+<p align="center">Built with ❤️ for HealthHack 2025</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[license-shield]: https://img.shields.io/github/license/FitFlo-App/FitFlo-BE.svg?style=for-the-badge
+[license-url]: https://github.com/FitFlo-App/FitFlo-BE/blob/main/LICENSE
+[react-shield]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[vite-shield]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
+[vite-url]: https://vitejs.dev/
+[tailwind-shield]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwind-url]: https://tailwindcss.com/
+[node-shield]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+[node-url]: https://nodejs.org/
+[express-shield]: https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
+[express-url]: https://expressjs.com/
+[mongodb-shield]: https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white
+[mongodb-url]: https://www.mongodb.com/
+[iris-shield]: https://img.shields.io/badge/InterSystems_IRIS-005F9E?style=for-the-badge&logo=intersystems&logoColor=white
+[iris-url]: https://www.intersystems.com/products/intersystems-iris/
+[redis-shield]: https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white
+[redis-url]: https://redis.io/
